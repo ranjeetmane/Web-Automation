@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tes" time="80" tests="7" failures="0" errors="1">
+   <testsuite name="Tes" tests="7" failures="0" errors="1" time="80" timestamp="2019-03-05 18:37:42" hostname="ranje - DESKTOP-EVQLC2E" id="Test Suites/Test Demo/Tes">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ranje\\Katalon Studio\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190305_183738"/>
+         <property name="logFiles" value="C:\\Users\\ranje\\Katalon Studio\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190305_183738\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ranje\\Katalon Studio\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190305_183738\\1551791319879.png"/>
+         <property name="hostName" value="ranje - DESKTOP-EVQLC2E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.0.247"/>
+         <property name="sessionId" value="6472b59985f084329e1d10793f120076"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Operator/OpLogin/OpLogin" classname="Test Cases/Operator/OpLogin/OpLogin" status="PASSED">
+         <system-out><![CDATA[2019-03-05 18:37:43 - [TEST_CASE][PASSED] - Test Cases/Operator/OpLogin/OpLogin: Test Cases/Operator/OpLogin/OpLogin
+
+2019-03-05 18:37:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-05 18:37:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-05 18:37:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-05 18:37:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-05 18:37:55 - [TEST_STEP][PASSED] - navigateToUrl("http://13.126.72.115:4200/"): Navigate to 'http://13.126.72.115:4200/' successfully
+
+2019-03-05 18:38:00 - [MESSAGE][PASSED] - Navigate to 'http://13.126.72.115:4200/' successfully
+
+2019-03-05 18:38:00 - [TEST_STEP][PASSED] - maximizeWindow(OPTIONAL): Current window maximized
+
+2019-03-05 18:38:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-05 18:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/div_Operator")): Object: 'Object Repository/Operator/OpLogin/Page_Runo/div_Operator' is clicked on
+
+2019-03-05 18:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogin/Page_Runo/div_Operator' is clicked on
+
+2019-03-05 18:38:02 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-05 18:38:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-05 18:38:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng"), "8830175062"): Text '8830175062' is set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng'
+
+2019-03-05 18:38:07 - [MESSAGE][PASSED] - Text '8830175062' is set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng'
+
+2019-03-05 18:38:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1"), "0VuygnA+GFY="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1'
+
+2019-03-05 18:38:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1'
+
+2019-03-05 18:38:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2"), "4QsYikuMnfc="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2'
+
+2019-03-05 18:38:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2'
+
+2019-03-05 18:38:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3"), "uyqgJ3PclbQ="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3'
+
+2019-03-05 18:38:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3'
+
+2019-03-05 18:38:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4"), "/yoJQMt7SF0="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4'
+
+2019-03-05 18:38:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4'
+
+2019-03-05 18:38:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5"), "2wIR5rizw6I="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5'
+
+2019-03-05 18:38:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5'
+
+2019-03-05 18:38:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6"), "xcsEsceOxMQ="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6'
+
+2019-03-05 18:38:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6'
+
+2019-03-05 18:38:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7"), "0r6XmuTReV8="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7'
+
+2019-03-05 18:38:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7'
+
+2019-03-05 18:38:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8"), "wEDVojD9906R+kXWuM9ihA=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8'
+
+2019-03-05 18:38:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8'
+
+2019-03-05 18:38:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9"), "wEDVojD9906x1g0B3VxO5g=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9'
+
+2019-03-05 18:38:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9'
+
+2019-03-05 18:38:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10"), "wEDVojD9905YSeMDfDCy9A=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10'
+
+2019-03-05 18:38:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10'
+
+2019-03-05 18:38:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11"), "wEDVojD9905YSeMDfDCy9A=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11'
+
+2019-03-05 18:38:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11'
+
+2019-03-05 18:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt")): Object: 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt' is clicked on
+
+2019-03-05 18:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/Walkin/With GST/a. Walkin_With_IndDiscount" classname="Test Cases/Operator/Walkin/With GST/a. Walkin_With_IndDiscount" status="PASSED">
+         <system-out><![CDATA[2019-03-05 18:38:09 - [TEST_CASE][PASSED] - Test Cases/Operator/Walkin/With GST/a. Walkin_With_IndDiscount: Test Cases/Operator/Walkin/With GST/a. Walkin_With_IndDiscount
+
+2019-03-05 18:38:10 - [TEST_STEP][PASSED] - in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithGST("9021548410", "KiranKumar", "20"): in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithGST is PASSED
+
+2019-03-05 18:38:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:11 - [MESSAGE][PASSED] - Text '9021548410' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Input_mobileNumber'
+
+2019-03-05 18:38:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_existingCustomer' is clicked on
+
+2019-03-05 18:38:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Service_DropDown_List' is clicked on
+
+2019-03-05 18:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select_serviceName' is clicked on
+
+2019-03-05 18:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Employee_DropDown_List' is clicked on
+
+2019-03-05 18:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select-EmployeeName' is clicked on
+
+2019-03-05 18:38:15 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Input_Individual_Discount'
+
+2019-03-05 18:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_AddSummary' is clicked on
+
+2019-03-05 18:38:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_ServicePrice1' is: ' 3000  INR
+600 INR OFF'
+
+2019-03-05 18:38:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 600, y = 0
+
+2019-03-05 18:38:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 18:38:19 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getProvidedDiscountInPercent' is: '20'
+
+2019-03-05 18:38:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 600
+
+2019-03-05 18:38:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getAppliedIndividualDiscount' is: '600 INR OFF'
+
+2019-03-05 18:38:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getActualGSTAmt' is: ' 432  INR'
+
+2019-03-05 18:38:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getTotalPayable' is: ' 2832 INR'
+
+2019-03-05 18:38:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_AmountPaid' is: ' 2832 INR'
+
+2019-03-05 18:38:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_Balance' is: ' 0 INR'
+
+2019-03-05 18:38:20 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Input_PartialPaidAmount' is: '2832'
+
+2019-03-05 18:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_SelectPaymentMode_DropDown' is clicked on
+
+2019-03-05 18:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash' is clicked on
+
+2019-03-05 18:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin' is clicked on
+
+2019-03-05 18:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' is clicked on
+
+2019-03-05 18:38:21 - [MESSAGE][PASSED] - in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithGST is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/Walkin/With GST/b. Walkin_With_Overall_Discount" classname="Test Cases/Operator/Walkin/With GST/b. Walkin_With_Overall_Discount" status="ERROR">
+         <error type="ERROR" message="Test Cases/Operator/Walkin/With GST/b. Walkin_With_Overall_Discount FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [9029485995, Ranjeet, 20]
+"/>
+         <system-out><![CDATA[2019-03-05 18:38:21 - [TEST_CASE][ERROR] - Test Cases/Operator/Walkin/With GST/b. Walkin_With_Overall_Discount: Test Cases/Operator/Walkin/With GST/b. Walkin_With_Overall_Discount FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [9029485995, Ranjeet, 20]
+
+
+2019-03-05 18:38:22 - [TEST_STEP][ERROR] - in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount("9029485995", "Ranjeet", "20"): in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount("9029485995", "Ranjeet", "20") FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [9029485995, Ranjeet, 20]
+
+
+2019-03-05 18:38:22 - [MESSAGE][ERROR] - No signature of method: in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [9029485995, Ranjeet, 20]
+
+2019-03-05 18:38:23 - [MESSAGE][ERROR] - in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount("9029485995", "Ranjeet", "20") FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [9029485995, Ranjeet, 20]]]></system-out>
+         <system-err><![CDATA[2019-03-05 18:38:21 - [TEST_CASE][ERROR] - Test Cases/Operator/Walkin/With GST/b. Walkin_With_Overall_Discount: Test Cases/Operator/Walkin/With GST/b. Walkin_With_Overall_Discount FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [9029485995, Ranjeet, 20]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/Walkin/Without GST/a. Walkin_With_IndDiscount" classname="Test Cases/Operator/Walkin/Without GST/a. Walkin_With_IndDiscount" status="PASSED">
+         <system-out><![CDATA[2019-03-05 18:38:23 - [TEST_CASE][PASSED] - Test Cases/Operator/Walkin/Without GST/a. Walkin_With_IndDiscount: Test Cases/Operator/Walkin/Without GST/a. Walkin_With_IndDiscount
+
+2019-03-05 18:38:23 - [TEST_STEP][PASSED] - in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithoutGST("9825142260", "Ind Disc and Without GST", "25"): in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithoutGST is PASSED
+
+2019-03-05 18:38:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:24 - [MESSAGE][PASSED] - Text '9825142260' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Input_mobileNumber'
+
+2019-03-05 18:38:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_existingCustomer' is clicked on
+
+2019-03-05 18:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Service_DropDown_List' is clicked on
+
+2019-03-05 18:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select_serviceName' is clicked on
+
+2019-03-05 18:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Employee_DropDown_List' is clicked on
+
+2019-03-05 18:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select-EmployeeName' is clicked on
+
+2019-03-05 18:38:26 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Input_Individual_Discount'
+
+2019-03-05 18:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_AddSummary' is clicked on
+
+2019-03-05 18:38:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_ServicePrice1' is: ' 3000  INR
+750 INR OFF'
+
+2019-03-05 18:38:26 - [MESSAGE][PASSED] - Browser is scrolled to position x = 600, y = 0
+
+2019-03-05 18:38:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 18:38:28 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getProvidedDiscountInPercent' is: '25'
+
+2019-03-05 18:38:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 600
+
+2019-03-05 18:38:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getAppliedIndividualDiscount' is: '750 INR OFF'
+
+2019-03-05 18:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_UnCheck_GST' is clicked on
+
+2019-03-05 18:38:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getTotalPayable' is: ' 2250 INR'
+
+2019-03-05 18:38:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_AmountPaid' is: ' 2250 INR'
+
+2019-03-05 18:38:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_Balance' is: ' 0 INR'
+
+2019-03-05 18:38:28 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Input_PartialPaidAmount' is: '2250'
+
+2019-03-05 18:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_SelectPaymentMode_DropDown' is clicked on
+
+2019-03-05 18:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash' is clicked on
+
+2019-03-05 18:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin' is clicked on
+
+2019-03-05 18:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' is clicked on
+
+2019-03-05 18:38:29 - [MESSAGE][PASSED] - in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithoutGST is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/Walkin/Without GST/b. Walkin_With_Overall_Discount" classname="Test Cases/Operator/Walkin/Without GST/b. Walkin_With_Overall_Discount" status="PASSED">
+         <system-out><![CDATA[2019-03-05 18:38:29 - [TEST_CASE][PASSED] - Test Cases/Operator/Walkin/Without GST/b. Walkin_With_Overall_Discount: Test Cases/Operator/Walkin/Without GST/b. Walkin_With_Overall_Discount
+
+2019-03-05 18:38:30 - [TEST_STEP][PASSED] - in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscountAnd_WithoutGST("8811175062", "OverallDiscount", "25"): in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscountAnd_WithoutGST is PASSED
+
+2019-03-05 18:38:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:31 - [MESSAGE][PASSED] - Text '8811175062' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Input_mobileNumber'
+
+2019-03-05 18:38:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_existingCustomer' is clicked on
+
+2019-03-05 18:38:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Service_DropDown_List' is clicked on
+
+2019-03-05 18:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select_serviceName' is clicked on
+
+2019-03-05 18:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Employee_DropDown_List' is clicked on
+
+2019-03-05 18:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select-EmployeeName' is clicked on
+
+2019-03-05 18:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_AddSummary' is clicked on
+
+2019-03-05 18:38:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/Click_Overall_DiscountButton' is clicked on
+
+2019-03-05 18:38:35 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/Input_OverallDiscount_In_Percentage'
+
+2019-03-05 18:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/Click_ApplyOverall_Discount' is clicked on
+
+2019-03-05 18:38:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/getText_ProvidedOverall_Discount_In_Percentage' is: '25'
+
+2019-03-05 18:38:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_ServicePrice1' is: ' 3000  INR'
+
+2019-03-05 18:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_UnCheck_GST' is clicked on
+
+2019-03-05 18:38:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getActualGSTAmt' is: ' 0  INR'
+
+2019-03-05 18:38:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getTotalPayable' is: ' 2250 INR'
+
+2019-03-05 18:38:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_AmountPaid' is: ' 2250 INR'
+
+2019-03-05 18:38:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_Balance' is: ' 0 INR'
+
+2019-03-05 18:38:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Input_PartialPaidAmount' is: '2250'
+
+2019-03-05 18:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_SelectPaymentMode_DropDown' is clicked on
+
+2019-03-05 18:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash' is clicked on
+
+2019-03-05 18:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin' is clicked on
+
+2019-03-05 18:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' is clicked on
+
+2019-03-05 18:38:37 - [MESSAGE][PASSED] - in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscountAnd_WithoutGST is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/Walkin/With GST/c. Walkin_With_AddMembership" classname="Test Cases/Operator/Walkin/With GST/c. Walkin_With_AddMembership" status="PASSED">
+         <system-out><![CDATA[2019-03-05 18:38:37 - [TEST_CASE][PASSED] - Test Cases/Operator/Walkin/With GST/c. Walkin_With_AddMembership: Test Cases/Operator/Walkin/With GST/c. Walkin_With_AddMembership
+
+2019-03-05 18:38:37 - [TEST_STEP][PASSED] - in.runo.operator.walkin.membership.Walkin_With_Membership.addMembership("9028485995", "Ranjeet"): in.runo.operator.walkin.membership.Walkin_With_Membership.addMembership is PASSED
+
+2019-03-05 18:38:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:38 - [MESSAGE][PASSED] - Text '9028485995' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Input_mobileNumber'
+
+2019-03-05 18:38:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_existingCustomer' is clicked on
+
+2019-03-05 18:38:40 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Operator/Walkin/c. Membership/Click_MembershipButton' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-EVQLC2E', ip: '192.168.0.247', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\ranje\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51609}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 6472b59985f084329e1d10793f120076)
+[[ATTACHMENT|C:\\Users\\ranje\\Katalon Studio\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190305_183738\\1551791319879.png]]
+
+2019-03-05 18:38:43 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-03-05 18:38:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 18:38:45 - [MESSAGE][PASSED] - in.runo.operator.walkin.membership.Walkin_With_Membership.addMembership is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/Walkin/With GST/d. Walkin_With_AvailMembership_Benefits" classname="Test Cases/Operator/Walkin/With GST/d. Walkin_With_AvailMembership_Benefits" status="PASSED">
+         <system-out><![CDATA[2019-03-05 18:38:45 - [TEST_CASE][PASSED] - Test Cases/Operator/Walkin/With GST/d. Walkin_With_AvailMembership_Benefits: Test Cases/Operator/Walkin/With GST/d. Walkin_With_AvailMembership_Benefits
+
+2019-03-05 18:38:46 - [TEST_STEP][PASSED] - in.runo.operator.walkin.membership.Walkin_With_Membership.availMembershipBenefits("9028485995", "Ranjeet"): in.runo.operator.walkin.membership.Walkin_With_Membership.availMembershipBenefits is PASSED
+
+2019-03-05 18:38:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:47 - [MESSAGE][PASSED] - Text '9028485995' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Input_mobileNumber'
+
+2019-03-05 18:38:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_existingCustomer' is clicked on
+
+2019-03-05 18:38:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Service_DropDown_List' is clicked on
+
+2019-03-05 18:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select_serviceName' is clicked on
+
+2019-03-05 18:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Employee_DropDown_List' is clicked on
+
+2019-03-05 18:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select-EmployeeName' is clicked on
+
+2019-03-05 18:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_AddSummary' is clicked on
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_ServicePrice1' is: ' 3000  INR'
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' is: '600 INR OFF'
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getActualGSTAmt' is: ' 432  INR'
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getTotalPayable' is: ' 2832 INR'
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_AmountPaid' is: ' 2832 INR'
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_Balance' is: ' 0 INR'
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Input_PartialPaidAmount' is: '2832'
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_SelectPaymentMode_DropDown' is clicked on
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash' is clicked on
+
+2019-03-05 18:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin' is clicked on
+
+2019-03-05 18:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' is clicked on
+
+2019-03-05 18:38:52 - [MESSAGE][PASSED] - in.runo.operator.walkin.membership.Walkin_With_Membership.availMembershipBenefits is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/OpLogout/OpLogout" classname="Test Cases/Operator/OpLogout/OpLogout" status="PASSED">
+         <system-out><![CDATA[2019-03-05 18:38:52 - [TEST_CASE][PASSED] - Test Cases/Operator/OpLogout/OpLogout: Test Cases/Operator/OpLogout/OpLogout
+
+2019-03-05 18:38:52 - [TEST_STEP][PASSED] - waitForElementNotVisible(findTestObject("Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav"), 6, STOP_ON_FAILURE): Object 'Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav' is visible after 6 second(s)
+
+2019-03-05 18:38:59 - [MESSAGE][WARNING] - Object 'Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav' is visible after 6 second(s)
+
+2019-03-05 18:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav")): Object: 'Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav' is clicked on
+
+2019-03-05 18:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-05 18:37:42 - [TEST_SUITE][ERROR] - Tes: Test Cases/Operator/Walkin/With GST/b. Walkin_With_Overall_Discount FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [9029485995, Ranjeet, 20]]]></system-out>
+      <system-err><![CDATA[2019-03-05 18:37:42 - [TEST_SUITE][ERROR] - Tes: Test Cases/Operator/Walkin/With GST/b. Walkin_With_Overall_Discount FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscount() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [9029485995, Ranjeet, 20]]]></system-err>
+   </testsuite>
+</testsuites>

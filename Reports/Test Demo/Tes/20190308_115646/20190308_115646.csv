@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Tes,Chrome 72.0.3626.121,,2019-03-08 11:56:52,2019-03-08 12:01:14,4m - 21.670s,FAILED
+,,,,,,
+Test Cases/Operator/OpLogin/OpLogin,Chrome 72.0.3626.121,,2019-03-08 11:56:53,2019-03-08 11:57:18,25.251s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-08 11:56:53,2019-03-08 11:57:02,9.072s,PASSED
+"navigateToUrl(""http://13.126.72.115:4200/"")",Chrome 72.0.3626.121,,2019-03-08 11:57:02,2019-03-08 11:57:08,5.386s,PASSED
+maximizeWindow(OPTIONAL),Chrome 72.0.3626.121,,2019-03-08 11:57:08,2019-03-08 11:57:09,1.242s,PASSED
+"click(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/div_Operator""))",Chrome 72.0.3626.121,,2019-03-08 11:57:09,2019-03-08 11:57:09,0.431s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-08 11:57:09,2019-03-08 11:57:14,5.076s,PASSED
+"setText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng""), ""8830175062"")",Chrome 72.0.3626.121,,2019-03-08 11:57:14,2019-03-08 11:57:15,0.989s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1""), ""0VuygnA+GFY="")",Chrome 72.0.3626.121,,2019-03-08 11:57:15,2019-03-08 11:57:16,0.553s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2""), ""4QsYikuMnfc="")",Chrome 72.0.3626.121,,2019-03-08 11:57:16,2019-03-08 11:57:16,0.155s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3""), ""uyqgJ3PclbQ="")",Chrome 72.0.3626.121,,2019-03-08 11:57:16,2019-03-08 11:57:16,0.132s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4""), ""/yoJQMt7SF0="")",Chrome 72.0.3626.121,,2019-03-08 11:57:16,2019-03-08 11:57:17,0.209s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5""), ""2wIR5rizw6I="")",Chrome 72.0.3626.121,,2019-03-08 11:57:17,2019-03-08 11:57:17,0.173s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6""), ""xcsEsceOxMQ="")",Chrome 72.0.3626.121,,2019-03-08 11:57:17,2019-03-08 11:57:17,0.164s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7""), ""0r6XmuTReV8="")",Chrome 72.0.3626.121,,2019-03-08 11:57:17,2019-03-08 11:57:17,0.149s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8""), ""wEDVojD9906R+kXWuM9ihA=="")",Chrome 72.0.3626.121,,2019-03-08 11:57:17,2019-03-08 11:57:17,0.152s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9""), ""wEDVojD9906x1g0B3VxO5g=="")",Chrome 72.0.3626.121,,2019-03-08 11:57:17,2019-03-08 11:57:17,0.181s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10""), ""wEDVojD9905YSeMDfDCy9A=="")",Chrome 72.0.3626.121,,2019-03-08 11:57:17,2019-03-08 11:57:18,0.167s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11""), ""wEDVojD9905YSeMDfDCy9A=="")",Chrome 72.0.3626.121,,2019-03-08 11:57:18,2019-03-08 11:57:18,0.187s,PASSED
+"click(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt""))",Chrome 72.0.3626.121,,2019-03-08 11:57:18,2019-03-08 11:57:18,0.143s,PASSED
+,,,,,,
+Test Cases/Operator/Walkin/With GST/a. Walkin_With_IndDiscount,Chrome 72.0.3626.121,,2019-03-08 11:57:18,2019-03-08 11:57:30,12.241s,PASSED
+"in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithGST(""9021548410"", ""KiranKumar"", ""20"")",Chrome 72.0.3626.121,,2019-03-08 11:57:18,2019-03-08 11:57:30,11.656s,PASSED
+,,,,,,
+Test Cases/Operator/Walkin/With GST/b. Walkin_With_Overall_Discount,Chrome 72.0.3626.121,,2019-03-08 11:57:30,2019-03-08 11:57:38,8.281s,PASSED
+"in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscountAndGST(""9812547512"", ""Overall Discount"", ""20"")",Chrome 72.0.3626.121,,2019-03-08 11:57:31,2019-03-08 11:57:38,7.874s,PASSED
+,,,,,,
+Test Cases/Operator/Walkin/With GST/c. Walkin_With_AddMembership,Chrome 72.0.3626.121,,2019-03-08 11:57:38,2019-03-08 11:58:26,47.785s,PASSED
+"in.runo.operator.walkin.membership.Walkin_With_Membership.addMembership(""9028485995"", ""Ranjeet"")",Chrome 72.0.3626.121,,2019-03-08 11:57:39,2019-03-08 11:58:26,47.468s,PASSED
+,,,,,,
+Test Cases/Operator/Walkin/With GST/d. Walkin_With_AvailMembership_Benefits,Chrome 72.0.3626.121,,2019-03-08 11:58:26,2019-03-08 11:58:33,6.940s,PASSED
+"in.runo.operator.walkin.membership.Walkin_With_Membership.availMembershipBenefits(""9028485995"", ""Ranjeet"")",Chrome 72.0.3626.121,,2019-03-08 11:58:27,2019-03-08 11:58:33,6.611s,PASSED
+,,,,,,
+Test Cases/Operator/Walkin/With GST/e. Walkin_With_OverallDiscount and MembershipDiscount,Chrome 72.0.3626.121,,2019-03-08 11:58:33,2019-03-08 11:58:41,7.441s,PASSED
+"in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.createWalkinWithOverallAndMembershipDiscount(""9028485995"", ""Ranjeet"", ""25"")",Chrome 72.0.3626.121,,2019-03-08 11:58:34,2019-03-08 11:58:41,7.042s,PASSED
+,,,,,,
+Test Cases/Operator/Walkin/With GST/f. Walkin_With_EditingService_Price,Chrome 72.0.3626.121,,2019-03-08 11:58:41,2019-03-08 11:58:47,6.584s,FAILED
+"in.runo.operator.walkin.service.Walkin_With_EditingServicePrice.walkinWithEditingServicePrice(""9028485995"", ""RajKumar"")",Chrome 72.0.3626.121,,2019-03-08 11:58:41,2019-03-08 11:58:47,6.120s,FAILED
+,,,,,,
+Test Cases/Operator/Walkin/Without GST/a. Walkin_With_IndDiscount,Chrome 72.0.3626.121,,2019-03-08 11:58:47,2019-03-08 11:59:21,34.095s,FAILED
+"in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithoutGST(""9825142260"", ""Ind Disc and Without GST"", ""25"")",Chrome 72.0.3626.121,,2019-03-08 11:58:48,2019-03-08 11:59:21,33.698s,FAILED
+,,,,,,
+Test Cases/Operator/Walkin/Without GST/b. Walkin_With_Overall_Discount,Chrome 72.0.3626.121,,2019-03-08 11:59:21,2019-03-08 11:59:55,33.533s,FAILED
+"in.runo.operator.walkin.service.Walkin_With_Overall_Discount.createWalkinWithOverallDiscountAnd_WithoutGST(""8811175062"", ""OverallDiscount"", ""25"")",Chrome 72.0.3626.121,,2019-03-08 11:59:22,2019-03-08 11:59:55,33.259s,FAILED
+,,,,,,
+Test Cases/Operator/Walkin/Without GST/d. Walkin_With_AvailMembership_Benefits,Chrome 72.0.3626.121,,2019-03-08 11:59:55,2019-03-08 12:00:28,33.471s,FAILED
+"in.runo.operator.walkin.membership.Walkin_With_Membership.availMembershipBenefits_Without_GST(""9028485995"", ""Ranjeet"")",Chrome 72.0.3626.121,,2019-03-08 11:59:55,2019-03-08 12:00:28,33.118s,FAILED
+,,,,,,
+Test Cases/Operator/Walkin/Without GST/e. Walkin_With_OverallDiscount and MembershipDiscount,Chrome 72.0.3626.121,,2019-03-08 12:00:28,2019-03-08 12:00:47,18.281s,FAILED
+"in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst(""9028485995"", ""Ranjeet"", ""30"")",Chrome 72.0.3626.121,,2019-03-08 12:00:29,2019-03-08 12:00:47,17.941s,FAILED
+,,,,,,
+Test Cases/Operator/Walkin/Without GST/f. Walkin_With_EditingService_Price,Chrome 72.0.3626.121,,2019-03-08 12:00:47,2019-03-08 12:01:00,13.448s,FAILED
+"in.runo.operator.walkin.service.Walkin_With_EditingServicePrice.walkinWithEditingServicePrice_WithoutGst(""9028485991"", ""EditServicePrice_WithoutGST"")",Chrome 72.0.3626.121,,2019-03-08 12:00:47,2019-03-08 12:01:00,13.069s,FAILED
+,,,,,,
+Test Cases/Operator/OpLogout/OpLogout,Chrome 72.0.3626.121,,2019-03-08 12:01:00,2019-03-08 12:01:13,12.954s,FAILED
+"waitForElementNotVisible(findTestObject(""Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav""), 6, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-08 12:01:01,2019-03-08 12:01:13,12.425s,FAILED

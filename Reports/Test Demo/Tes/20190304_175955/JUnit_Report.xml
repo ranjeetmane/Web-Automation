@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tes" time="64" tests="3" failures="0" errors="0">
+   <testsuite name="Tes" tests="3" failures="0" errors="0" time="64" timestamp="2019-03-04 18:00:00" hostname="ranje - DESKTOP-EVQLC2E" id="Test Suites/Test Demo/Tes">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ranje\\Katalon Studio\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190304_175955"/>
+         <property name="logFiles" value="C:\\Users\\ranje\\Katalon Studio\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190304_175955\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ranje - DESKTOP-EVQLC2E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.0.247"/>
+         <property name="sessionId" value="bdcaf88bd16ce90d4f48ca5285bdcc26"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Operator/OpLogin/OpLogin" classname="Test Cases/Operator/OpLogin/OpLogin" status="PASSED">
+         <system-out><![CDATA[2019-03-04 18:00:01 - [TEST_CASE][PASSED] - Test Cases/Operator/OpLogin/OpLogin: Test Cases/Operator/OpLogin/OpLogin
+
+2019-03-04 18:00:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-04 18:00:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-04 18:00:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-04 18:00:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-04 18:00:21 - [TEST_STEP][PASSED] - navigateToUrl("http://13.126.72.115:4200/"): Navigate to 'http://13.126.72.115:4200/' successfully
+
+2019-03-04 18:00:27 - [MESSAGE][PASSED] - Navigate to 'http://13.126.72.115:4200/' successfully
+
+2019-03-04 18:00:27 - [TEST_STEP][PASSED] - maximizeWindow(OPTIONAL): Current window maximized
+
+2019-03-04 18:00:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-04 18:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/div_Operator")): Object: 'Object Repository/Operator/OpLogin/Page_Runo/div_Operator' is clicked on
+
+2019-03-04 18:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogin/Page_Runo/div_Operator' is clicked on
+
+2019-03-04 18:00:28 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-04 18:00:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-04 18:00:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng"), "8830175062"): Text '8830175062' is set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng'
+
+2019-03-04 18:00:34 - [MESSAGE][PASSED] - Text '8830175062' is set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng'
+
+2019-03-04 18:00:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1"), "0VuygnA+GFY="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1'
+
+2019-03-04 18:00:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1'
+
+2019-03-04 18:00:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2"), "4QsYikuMnfc="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2'
+
+2019-03-04 18:00:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2'
+
+2019-03-04 18:00:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3"), "uyqgJ3PclbQ="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3'
+
+2019-03-04 18:00:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3'
+
+2019-03-04 18:00:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4"), "/yoJQMt7SF0="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4'
+
+2019-03-04 18:00:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4'
+
+2019-03-04 18:00:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5"), "2wIR5rizw6I="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5'
+
+2019-03-04 18:00:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5'
+
+2019-03-04 18:00:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6"), "xcsEsceOxMQ="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6'
+
+2019-03-04 18:00:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6'
+
+2019-03-04 18:00:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7"), "0r6XmuTReV8="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7'
+
+2019-03-04 18:00:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7'
+
+2019-03-04 18:00:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8"), "wEDVojD9906R+kXWuM9ihA=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8'
+
+2019-03-04 18:00:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8'
+
+2019-03-04 18:00:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9"), "wEDVojD9906x1g0B3VxO5g=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9'
+
+2019-03-04 18:00:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9'
+
+2019-03-04 18:00:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10"), "wEDVojD9905YSeMDfDCy9A=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10'
+
+2019-03-04 18:00:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10'
+
+2019-03-04 18:00:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11"), "wEDVojD9905YSeMDfDCy9A=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11'
+
+2019-03-04 18:00:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11'
+
+2019-03-04 18:00:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt")): Object: 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt' is clicked on
+
+2019-03-04 18:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/Walkin/Without GST/a. Walkin_With_IndDiscount" classname="Test Cases/Operator/Walkin/Without GST/a. Walkin_With_IndDiscount" status="PASSED">
+         <system-out><![CDATA[2019-03-04 18:00:36 - [TEST_CASE][PASSED] - Test Cases/Operator/Walkin/Without GST/a. Walkin_With_IndDiscount: Test Cases/Operator/Walkin/Without GST/a. Walkin_With_IndDiscount
+
+2019-03-04 18:00:37 - [TEST_STEP][PASSED] - in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithoutGST("9825142260", "Ind Disc and Without GST", "25"): in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithoutGST is PASSED
+
+2019-03-04 18:00:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-04 18:00:41 - [MESSAGE][PASSED] - Text '9825142260' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Input_mobileNumber'
+
+2019-03-04 18:00:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-04 18:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_existingCustomer' is clicked on
+
+2019-03-04 18:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Service_DropDown_List' is clicked on
+
+2019-03-04 18:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select_serviceName' is clicked on
+
+2019-03-04 18:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Employee_DropDown_List' is clicked on
+
+2019-03-04 18:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select-EmployeeName' is clicked on
+
+2019-03-04 18:00:44 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Input_Individual_Discount'
+
+2019-03-04 18:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_AddSummary' is clicked on
+
+2019-03-04 18:00:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_ServicePrice1' is: ' 3000  INR
+750 INR OFF'
+
+2019-03-04 18:00:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 600, y = 0
+
+2019-03-04 18:00:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-04 18:00:47 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getProvidedDiscountInPercent' is: '25'
+
+2019-03-04 18:00:47 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 600
+
+2019-03-04 18:00:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getAppliedIndividualDiscount' is: '750 INR OFF'
+
+2019-03-04 18:00:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_UnCheck_GST' is clicked on
+
+2019-03-04 18:00:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getTotalPayable' is: ' 2250 INR'
+
+2019-03-04 18:00:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_AmountPaid' is: ' 2250 INR'
+
+2019-03-04 18:00:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_Balance' is: ' 0 INR'
+
+2019-03-04 18:00:48 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Input_PartialPaidAmount' is: '2250'
+
+2019-03-04 18:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_SelectPaymentMode_DropDown' is clicked on
+
+2019-03-04 18:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash' is clicked on
+
+2019-03-04 18:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin' is clicked on
+
+2019-03-04 18:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' is clicked on
+
+2019-03-04 18:00:49 - [MESSAGE][PASSED] - in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithoutGST is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/OpLogout/OpLogout" classname="Test Cases/Operator/OpLogout/OpLogout" status="PASSED">
+         <system-out><![CDATA[2019-03-04 18:00:49 - [TEST_CASE][PASSED] - Test Cases/Operator/OpLogout/OpLogout: Test Cases/Operator/OpLogout/OpLogout
+
+2019-03-04 18:00:49 - [TEST_STEP][PASSED] - waitForElementNotVisible(findTestObject("Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav"), 6, STOP_ON_FAILURE): Object 'Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav' is visible after 6 second(s)
+
+2019-03-04 18:00:56 - [MESSAGE][WARNING] - Object 'Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav' is visible after 6 second(s)
+
+2019-03-04 18:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav")): Object: 'Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav' is clicked on
+
+2019-03-04 18:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogout/Page_Runo/input_CUSTOMER DETAILS_nav nav' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-04 18:00:00 - [TEST_SUITE][PASSED] - Tes: Test Cases/Operator/OpLogout/OpLogout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
