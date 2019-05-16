@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Tes,Firefox 66.0,,2019-05-15 19:26:10,2019-05-15 19:27:15,1m - 5.124s,PASSED
+,,,,,,
+Test Cases/Operator/OpLogin/OpLogin,Firefox 66.0,,2019-05-15 19:26:10,2019-05-15 19:26:36,25.659s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-15 19:26:11,2019-05-15 19:26:20,9.670s,PASSED
+"navigateToUrl(""http://13.126.72.115:4200/"")",Firefox 66.0,,2019-05-15 19:26:20,2019-05-15 19:26:29,8.250s,PASSED
+maximizeWindow(OPTIONAL),Firefox 66.0,,2019-05-15 19:26:29,2019-05-15 19:26:29,0.047s,PASSED
+"click(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/div_Operator""))",Firefox 66.0,,2019-05-15 19:26:29,2019-05-15 19:26:29,0.409s,PASSED
+"delay(5, STOP_ON_FAILURE)",Firefox 66.0,,2019-05-15 19:26:29,2019-05-15 19:26:34,5.070s,PASSED
+"setText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng""), ""8830175062"")",Firefox 66.0,,2019-05-15 19:26:34,2019-05-15 19:26:34,0.247s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1""), ""0VuygnA+GFY="")",Firefox 66.0,,2019-05-15 19:26:34,2019-05-15 19:26:35,0.191s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2""), ""4QsYikuMnfc="")",Firefox 66.0,,2019-05-15 19:26:35,2019-05-15 19:26:35,0.081s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3""), ""uyqgJ3PclbQ="")",Firefox 66.0,,2019-05-15 19:26:35,2019-05-15 19:26:35,0.140s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4""), ""/yoJQMt7SF0="")",Firefox 66.0,,2019-05-15 19:26:35,2019-05-15 19:26:35,0.075s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5""), ""2wIR5rizw6I="")",Firefox 66.0,,2019-05-15 19:26:35,2019-05-15 19:26:35,0.069s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6""), ""xcsEsceOxMQ="")",Firefox 66.0,,2019-05-15 19:26:35,2019-05-15 19:26:35,0.069s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7""), ""0r6XmuTReV8="")",Firefox 66.0,,2019-05-15 19:26:35,2019-05-15 19:26:35,0.114s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8""), ""wEDVojD9906R+kXWuM9ihA=="")",Firefox 66.0,,2019-05-15 19:26:35,2019-05-15 19:26:35,0.072s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9""), ""wEDVojD9906x1g0B3VxO5g=="")",Firefox 66.0,,2019-05-15 19:26:35,2019-05-15 19:26:35,0.085s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10""), ""wEDVojD9905YSeMDfDCy9A=="")",Firefox 66.0,,2019-05-15 19:26:35,2019-05-15 19:26:35,0.086s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11""), ""wEDVojD9905YSeMDfDCy9A=="")",Firefox 66.0,,2019-05-15 19:26:35,2019-05-15 19:26:36,0.101s,PASSED
+"click(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt""))",Firefox 66.0,,2019-05-15 19:26:36,2019-05-15 19:26:36,0.261s,PASSED
+,,,,,,
+Test Cases/Operator/Walkin/With GST/f. Walkin_With_EditingService_Price,Firefox 66.0,,2019-05-15 19:26:36,2019-05-15 19:27:13,37.055s,PASSED
+"callTestCase(findTestCase(""Operator/OpLogin/OpLogin""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-15 19:26:36,2019-05-15 19:27:01,24.921s,PASSED
+"in.runo.operator.walkin.service.Walkin_With_EditingServicePrice.walkinWithEditingServicePrice(""9494252321"", ""RajKumar"")",Firefox 66.0,,2019-05-15 19:27:01,2019-05-15 19:27:13,11.772s,PASSED

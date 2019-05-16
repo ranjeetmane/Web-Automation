@@ -13,6 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'in.runo.operator.walkin.membership.Walkin_With_Membership.addMembership'("9028485995", "Ranjeet")
-
+CustomKeywords.'in.runo.operator.walkin.membership.Walkin_With_Membership.addMembership'('9028485995', 'Ranjeet')
 

@@ -27,13 +27,12 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 		try{
 
 			WebUI.scrollToElement(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_MembershipButton'), 2)
-			WebUI.delay(6)
+			WebUI.delay(2)
 			WebUI.click(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_MembershipButton'))
 
 			WebUI.delay(2)
 
 			WebUI.click(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_SelectMembership_Plan'))
-
 
 			WebUI.delay(2)
 
@@ -41,27 +40,11 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 			WebUI.click(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_SelectMode_Paytm'))
 
+			WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_On_ADDButtonToAddModesOfPayment'))
 
 			WebUI.click(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_ClickOnSubmit_Button'))
 
-			WebUI.scrollToElement(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_MembershipButton'), 2)
-
-			WebUI.delay(6)
-			WebUI.click(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_MembershipButton'))
-
-			WebUI.delay(2)
-
-			WebUI.click(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_SelectMembership_Plan'))
-
-
-			WebUI.delay(2)
-
-			WebUI.click(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_ModeOfPayment_DropDown'))
-
-			WebUI.click(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_SelectMode_Paytm'))
-
-
-			WebUI.click(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_ClickOnSubmit_Button'))
+			WebUI.click(findTestObject('Object Repository/Operator/Walkin/c. Membership/Click_CreateNewWalkin'))
 		}catch(Exception E) {
 
 			println " Warning !! Customer has already membership plan, so you can not buy's membership plan for the same customer";
@@ -92,8 +75,11 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 		WebUI.delay(1)
 
+		String getPerOfMembeshipDisc = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getPerOfMembDisc'))
 
-		int membershipDiscount = 20;
+		String discOfMemb = getPerOfMembeshipDisc.trim().split(" ")[2];
+		String 	getactDiscOfMemb = discOfMemb.replace("(", "");
+		int membershipDiscount = Integer.parseInt(getactDiscOfMemb);
 
 
 		String getPriceOfSelectedService = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_ServicePrice1'))
@@ -137,7 +123,7 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 					double actAmountPaid = Double.valueOf(getAmountPaid.trim().split(" ")[0]);
 
-					double expAmountPaid = expTotalPayable;
+					double expAmountPaid = 0;
 
 					if(actAmountPaid==expAmountPaid) {
 						println " Test Case Passed !! As Amount paid has updated successfully"
@@ -147,7 +133,7 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 						double actBalanceAmt = Double.valueOf(getBalance.trim().split(" ")[0])
 
-						double expBalanceAmt = expTotalPayable-expAmountPaid;
+						double expBalanceAmt = expTotalPayable;
 
 						if(actBalanceAmt==expBalanceAmt) {
 							println " Test Case Passed !! As Balance Amount is correct"
@@ -156,7 +142,7 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 							double actPartialPaid = Double.valueOf(getpartialPaid);
 
-							double expPartialPaid = expAmountPaid;
+							double expPartialPaid = expTotalPayable;
 
 							if(actPartialPaid==expPartialPaid) {
 								println " Test Case Passed !! As partial Paid Amount has updated successfully"
@@ -165,9 +151,10 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash'))
 
+								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_On_ADDButtonToAddModesOfPayment'))
+
 
 								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin'))
-
 
 								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin'))
 
@@ -209,19 +196,18 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 		WebUI.delay(1)
 
-
-		int membershipDiscount = 20;
-
-
+		
+		String getPerOfMembeshipDisc = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getPerOfMembDisc'))
+		
+		String discOfMemb = getPerOfMembeshipDisc.trim().split(" ")[2];
+		String 	getactDiscOfMemb = discOfMemb.replace("(", "");
+		int membershipDiscount = Integer.parseInt(getactDiscOfMemb);
 
 		WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_UnCheck_GST'))
 
-
 		String getPriceOfSelectedService = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_ServicePrice1'))
 
-
 		priceOfSelectedService1 = Integer.parseInt(getPriceOfSelectedService.trim().split(" ")[0]);
-
 
 		String getActMembershipDiscount = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount'))
 
@@ -258,7 +244,7 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 					double actAmountPaid = Double.valueOf(getAmountPaid.trim().split(" ")[0]);
 
-					double expAmountPaid = expTotalPayable;
+					double expAmountPaid = 0;
 
 
 					if(actAmountPaid==expAmountPaid) {
@@ -268,7 +254,7 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 						double actBalanceAmt = Double.valueOf(getBalance.trim().split(" ")[0])
 
-						double expBalanceAmt = expTotalPayable-expAmountPaid;
+						double expBalanceAmt = expTotalPayable;
 
 						if(actBalanceAmt==expBalanceAmt) {
 							println " Test Case Passed !! As Balance Amount is correct"
@@ -277,7 +263,7 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 							double actPartialPaid = Double.valueOf(getpartialPaid);
 
-							double expPartialPaid = expAmountPaid;
+							double expPartialPaid = expTotalPayable;
 
 							if(actPartialPaid==expPartialPaid) {
 								println " Test Case Passed !! As Partial Paid amount is updated successfully"
@@ -286,9 +272,9 @@ public class Walkin_With_Membership extends Walkin_With_IndDiscount{
 
 								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash'))
 
+								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_On_ADDButtonToAddModesOfPayment'))
 
 								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin'))
-
 
 								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin'))
 

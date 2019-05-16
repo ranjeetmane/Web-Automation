@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@class='js-example-basic-single nice-textbox ng-untouched ng-pristine ng-valid']</value>
+         <value>//select[@ng-reflect-model='Select payment mode']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@class='nice-textbox ng-untouched ng-pristine ng-valid']</value>
+         <value>//input[@class='nice-textbox ng-untouched ng-pristine ng-valid' and @ng-reflect-is-disabled='false']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

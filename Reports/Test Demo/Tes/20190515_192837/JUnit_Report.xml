@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tes" time="98" tests="1" failures="1" errors="0">
+   <testsuite name="Tes" tests="1" failures="1" errors="0" time="98" timestamp="2019-05-15 19:28:41" hostname="ranje - 192.168.1.19" id="Test Suites/Test Demo/Tes">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190515_192837"/>
+         <property name="logFiles" value="C:\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190515_192837\\execution0.log"/>
+         <property name="attachments" value="C:\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190515_192837\\1557928818235.png"/>
+         <property name="hostName" value="ranje - 192.168.1.19"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="192.168.1.19"/>
+         <property name="sessionId" value="e8c68402-2acd-4e4b-bb15-483bca9ae41e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Operator/OpLogin/OpLogin" classname="Test Cases/Operator/OpLogin/OpLogin" status="PASSED">
+         <system-out><![CDATA[2019-05-15 19:28:41 - [TEST_CASE][PASSED] - Test Cases/Operator/OpLogin/OpLogin: Test Cases/Operator/OpLogin/OpLogin
+
+2019-05-15 19:28:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-15 19:28:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-15 19:28:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-15 19:28:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-15 19:28:50 - [TEST_STEP][PASSED] - navigateToUrl("http://13.126.72.115:4200/"): Navigate to 'http://13.126.72.115:4200/' successfully
+
+2019-05-15 19:28:58 - [MESSAGE][PASSED] - Navigate to 'http://13.126.72.115:4200/' successfully
+
+2019-05-15 19:28:58 - [TEST_STEP][PASSED] - maximizeWindow(OPTIONAL): Current window maximized
+
+2019-05-15 19:28:59 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-15 19:28:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/div_Operator")): Object: 'Object Repository/Operator/OpLogin/Page_Runo/div_Operator' is clicked on
+
+2019-05-15 19:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogin/Page_Runo/div_Operator' is clicked on
+
+2019-05-15 19:28:59 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-05-15 19:29:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-15 19:29:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng"), "8830175062"): Text '8830175062' is set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng'
+
+2019-05-15 19:29:04 - [MESSAGE][PASSED] - Text '8830175062' is set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng'
+
+2019-05-15 19:29:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1"), "0VuygnA+GFY="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1'
+
+2019-05-15 19:29:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1'
+
+2019-05-15 19:29:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2"), "4QsYikuMnfc="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2'
+
+2019-05-15 19:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2'
+
+2019-05-15 19:29:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3"), "uyqgJ3PclbQ="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3'
+
+2019-05-15 19:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3'
+
+2019-05-15 19:29:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4"), "/yoJQMt7SF0="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4'
+
+2019-05-15 19:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4'
+
+2019-05-15 19:29:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5"), "2wIR5rizw6I="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5'
+
+2019-05-15 19:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5'
+
+2019-05-15 19:29:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6"), "xcsEsceOxMQ="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6'
+
+2019-05-15 19:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6'
+
+2019-05-15 19:29:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7"), "0r6XmuTReV8="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7'
+
+2019-05-15 19:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7'
+
+2019-05-15 19:29:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8"), "wEDVojD9906R+kXWuM9ihA=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8'
+
+2019-05-15 19:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8'
+
+2019-05-15 19:29:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9"), "wEDVojD9906x1g0B3VxO5g=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9'
+
+2019-05-15 19:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9'
+
+2019-05-15 19:29:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10"), "wEDVojD9905YSeMDfDCy9A=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10'
+
+2019-05-15 19:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10'
+
+2019-05-15 19:29:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11"), "wEDVojD9905YSeMDfDCy9A=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11'
+
+2019-05-15 19:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11'
+
+2019-05-15 19:29:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt")): Object: 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt' is clicked on
+
+2019-05-15 19:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/Walkin/With GST/g. Walkin_With_EditingServiceQuantity" classname="Test Cases/Operator/Walkin/With GST/g. Walkin_With_EditingServiceQuantity" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Operator/Walkin/With GST/g. Walkin_With_EditingServiceQuantity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' located by 'By.xpath: //button[text()='Create new walkin']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at in.runo.operator.walkin.service.Walkin_With_EditingServiceQuantity.walkinWithEditingServiceQuantity(Walkin_With_EditingServiceQuantity.groovy:123)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at g. Walkin_With_EditingServiceQuantity.run(g. Walkin_With_EditingServiceQuantity:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557928717788.run(TempTestSuite1557928717788.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-15 19:29:06 - [TEST_CASE][FAILED] - Test Cases/Operator/Walkin/With GST/g. Walkin_With_EditingServiceQuantity: Test Cases/Operator/Walkin/With GST/g. Walkin_With_EditingServiceQuantity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' located by 'By.xpath: //button[text()='Create new walkin']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at in.runo.operator.walkin.service.Walkin_With_EditingServiceQuantity.walkinWithEditingServiceQuantity(Walkin_With_EditingServiceQuantity.groovy:123)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at g. Walkin_With_EditingServiceQuantity.run(g. Walkin_With_EditingServiceQuantity:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557928717788.run(TempTestSuite1557928717788.groovy:36)
+
+
+2019-05-15 19:29:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Operator/OpLogin/OpLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Operator/OpLogin/OpLogin' successfully
+
+2019-05-15 19:29:06 - [TEST_CASE][PASSED] - Test Cases/Operator/OpLogin/OpLogin: Test Cases/Operator/OpLogin/OpLogin
+
+2019-05-15 19:29:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-15 19:29:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-15 19:29:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-15 19:29:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-15 19:29:16 - [TEST_STEP][PASSED] - navigateToUrl("http://13.126.72.115:4200/"): Navigate to 'http://13.126.72.115:4200/' successfully
+
+2019-05-15 19:29:23 - [MESSAGE][PASSED] - Navigate to 'http://13.126.72.115:4200/' successfully
+
+2019-05-15 19:29:23 - [TEST_STEP][PASSED] - maximizeWindow(OPTIONAL): Current window maximized
+
+2019-05-15 19:29:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-15 19:29:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/div_Operator")): Object: 'Object Repository/Operator/OpLogin/Page_Runo/div_Operator' is clicked on
+
+2019-05-15 19:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogin/Page_Runo/div_Operator' is clicked on
+
+2019-05-15 19:29:24 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-05-15 19:29:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-15 19:29:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng"), "8830175062"): Text '8830175062' is set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng'
+
+2019-05-15 19:29:29 - [MESSAGE][PASSED] - Text '8830175062' is set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng'
+
+2019-05-15 19:29:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1"), "0VuygnA+GFY="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1'
+
+2019-05-15 19:29:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1'
+
+2019-05-15 19:29:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2"), "4QsYikuMnfc="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2'
+
+2019-05-15 19:29:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2'
+
+2019-05-15 19:29:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3"), "uyqgJ3PclbQ="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3'
+
+2019-05-15 19:29:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3'
+
+2019-05-15 19:29:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4"), "/yoJQMt7SF0="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4'
+
+2019-05-15 19:29:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4'
+
+2019-05-15 19:29:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5"), "2wIR5rizw6I="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5'
+
+2019-05-15 19:29:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5'
+
+2019-05-15 19:29:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6"), "xcsEsceOxMQ="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6'
+
+2019-05-15 19:29:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6'
+
+2019-05-15 19:29:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7"), "0r6XmuTReV8="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7'
+
+2019-05-15 19:29:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7'
+
+2019-05-15 19:29:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8"), "wEDVojD9906R+kXWuM9ihA=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8'
+
+2019-05-15 19:29:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8'
+
+2019-05-15 19:29:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9"), "wEDVojD9906x1g0B3VxO5g=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9'
+
+2019-05-15 19:29:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9'
+
+2019-05-15 19:29:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10"), "wEDVojD9905YSeMDfDCy9A=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10'
+
+2019-05-15 19:29:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10'
+
+2019-05-15 19:29:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11"), "wEDVojD9905YSeMDfDCy9A=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11'
+
+2019-05-15 19:29:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11'
+
+2019-05-15 19:29:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt")): Object: 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt' is clicked on
+
+2019-05-15 19:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt' is clicked on
+
+2019-05-15 19:29:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Operator/OpLogin/OpLogin' successfully
+
+2019-05-15 19:29:30 - [TEST_STEP][FAILED] - in.runo.operator.walkin.service.Walkin_With_EditingServiceQuantity.walkinWithEditingServiceQuantity("8247241510", "Ranjeet"): in.runo.operator.walkin.service.Walkin_With_EditingServiceQuantity.walkinWithEditingServiceQuantity("8247241510", "Ranjeet") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' located by 'By.xpath: //button[text()='Create new walkin']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at in.runo.operator.walkin.service.Walkin_With_EditingServiceQuantity.walkinWithEditingServiceQuantity(Walkin_With_EditingServiceQuantity.groovy:123)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at g. Walkin_With_EditingServiceQuantity.run(g. Walkin_With_EditingServiceQuantity:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557928717788.run(TempTestSuite1557928717788.groovy:36)
+
+
+2019-05-15 19:29:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-15 19:29:33 - [MESSAGE][PASSED] - Text '8247241510' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Input_mobileNumber'
+
+2019-05-15 19:29:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-15 19:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_existingCustomer' is clicked on
+
+2019-05-15 19:29:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-15 19:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Service_DropDown_List' is clicked on
+
+2019-05-15 19:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select_serviceName' is clicked on
+
+2019-05-15 19:29:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-15 19:29:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/e. Editing Service Quantity/getText_ServiceQuantity' is cleared
+
+2019-05-15 19:29:40 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Operator/Walkin/e. Editing Service Quantity/getText_ServiceQuantity'
+
+2019-05-15 19:29:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-15 19:29:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Employee_DropDown_List' is clicked on
+
+2019-05-15 19:29:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-15 19:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select-EmployeeName' is clicked on
+
+2019-05-15 19:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_AddSummary' is clicked on
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 600, y = 0
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/d. Walkin_With_EditingServicePrice/Input_getText_ServicePrice1' is: '3000'
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/e. Editing Service Quantity/getText_ServiceQuantity' is: '4'
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_ServicePrice1' is: ' 12000  INR'
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 600
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getActualGSTAmt' is: ' 2160  INR'
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getTotalPayable' is: ' 14160 INR'
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_AmountPaid' is: ' 0 INR'
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_Balance' is: ' 14160 INR'
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Input_PartialPaidAmount' is: '14160'
+
+2019-05-15 19:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_SelectPaymentMode_DropDown' is clicked on
+
+2019-05-15 19:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash' is clicked on
+
+2019-05-15 19:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin' is clicked on
+
+2019-05-15 19:30:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[text()='Create new walkin']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-15 19:30:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' located by 'By.xpath: //button[text()='Create new walkin']' not found)
+[[ATTACHMENT|C:\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190515_192837\\1557928818235.png]]
+
+2019-05-15 19:30:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' located by 'By.xpath: //button[text()='Create new walkin']' not found)
+
+2019-05-15 19:30:18 - [MESSAGE][FAILED] - in.runo.operator.walkin.service.Walkin_With_EditingServiceQuantity.walkinWithEditingServiceQuantity("8247241510", "Ranjeet") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' located by 'By.xpath: //button[text()='Create new walkin']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at in.runo.operator.walkin.service.Walkin_With_EditingServiceQuantity.walkinWithEditingServiceQuantity(Walkin_With_EditingServiceQuantity.groovy:123)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at g. Walkin_With_EditingServiceQuantity.run(g. Walkin_With_EditingServiceQuantity:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557928717788.run(TempTestSuite1557928717788.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-15 19:29:06 - [TEST_CASE][FAILED] - Test Cases/Operator/Walkin/With GST/g. Walkin_With_EditingServiceQuantity: Test Cases/Operator/Walkin/With GST/g. Walkin_With_EditingServiceQuantity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' located by 'By.xpath: //button[text()='Create new walkin']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at in.runo.operator.walkin.service.Walkin_With_EditingServiceQuantity.walkinWithEditingServiceQuantity(Walkin_With_EditingServiceQuantity.groovy:123)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at g. Walkin_With_EditingServiceQuantity.run(g. Walkin_With_EditingServiceQuantity:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557928717788.run(TempTestSuite1557928717788.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-15 19:28:41 - [TEST_SUITE][FAILED] - Tes: Test Cases/Operator/Walkin/With GST/g. Walkin_With_EditingServiceQuantity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' located by 'By.xpath: //button[text()='Create new walkin']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at in.runo.operator.walkin.service.Walkin_With_EditingServiceQuantity.walkinWithEditingServiceQuantity(Walkin_With_EditingServiceQuantity.groovy:123)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at g. Walkin_With_EditingServiceQuantity.run(g. Walkin_With_EditingServiceQuantity:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557928717788.run(TempTestSuite1557928717788.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-05-15 19:28:41 - [TEST_SUITE][FAILED] - Tes: Test Cases/Operator/Walkin/With GST/g. Walkin_With_EditingServiceQuantity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin' located by 'By.xpath: //button[text()='Create new walkin']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at in.runo.operator.walkin.service.Walkin_With_EditingServiceQuantity.walkinWithEditingServiceQuantity(Walkin_With_EditingServiceQuantity.groovy:123)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at g. Walkin_With_EditingServiceQuantity.run(g. Walkin_With_EditingServiceQuantity:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557928717788.run(TempTestSuite1557928717788.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

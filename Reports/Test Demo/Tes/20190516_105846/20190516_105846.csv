@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Tes,Firefox 66.0,,2019-05-16 10:58:57,2019-05-16 11:05:29,6m - 31.570s,INCOMPLETE
+,,,,,,
+Test Cases/Operator/OpLogin/OpLogin,Firefox 66.0,,2019-05-16 10:58:58,2019-05-16 11:01:34,2m - 36.035s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-16 10:58:59,2019-05-16 10:59:58,59.299s,PASSED
+"navigateToUrl(""http://13.126.72.115:4200/"")",Firefox 66.0,,2019-05-16 10:59:58,2019-05-16 11:01:01,1m - 3.388s,PASSED
+maximizeWindow(OPTIONAL),Firefox 66.0,,2019-05-16 11:01:01,2019-05-16 11:01:02,0.330s,PASSED
+"click(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/div_Operator""))",Firefox 66.0,,2019-05-16 11:01:02,2019-05-16 11:01:34,32.189s,FAILED
+,,,,,,
+Test Cases/Operator/Walkin/With GST/h. Walkin_With_Add_Credits,Firefox 66.0,,2019-05-16 11:01:34,2019-05-16 11:05:29,3m - 54.823s,FAILED
+"callTestCase(findTestCase(""Operator/OpLogin/OpLogin""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-16 11:01:35,2019-05-16 11:05:29,3m - 54.144s,FAILED

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Tes,Firefox 66.0,,2019-05-16 12:56:16,2019-05-16 12:59:15,2m - 58.192s,FAILED
+,,,,,,
+Test Cases/Operator/OpLogin/OpLogin,Firefox 66.0,,2019-05-16 12:56:17,2019-05-16 12:58:39,2m - 22.181s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-16 12:56:18,2019-05-16 12:56:32,13.466s,PASSED
+"navigateToUrl(""http://13.126.72.115:4200/"")",Firefox 66.0,,2019-05-16 12:56:32,2019-05-16 12:58:07,1m - 35.541s,PASSED
+maximizeWindow(OPTIONAL),Firefox 66.0,,2019-05-16 12:58:07,2019-05-16 12:58:08,1.134s,PASSED
+"click(findTestObject(""Object Repository/Operator/OpLogin/Page_Runo/div_Operator""))",Firefox 66.0,,2019-05-16 12:58:08,2019-05-16 12:58:39,31.059s,FAILED
+,,,,,,
+Test Cases/Operator/Walkin/Without GST/d. Walkin_With_AvailMembership_Benefits,Firefox 66.0,,2019-05-16 12:58:39,2019-05-16 12:59:12,32.757s,FAILED
+"in.runo.operator.walkin.membership.Walkin_With_Membership.addMembership(""9028485995"", ""Add Memb"")",Firefox 66.0,Buying Membership Plan,2019-05-16 12:58:40,2019-05-16 12:59:12,32.472s,FAILED

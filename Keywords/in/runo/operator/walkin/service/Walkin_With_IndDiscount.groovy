@@ -143,7 +143,7 @@ public class Walkin_With_IndDiscount {
 
 					double actAmountPaid = Double.valueOf(getAmountPaid.trim().split(" ")[0]);
 
-					double expAmountPaid = expTotalPayable;
+					double expAmountPaid = 0;
 
 
 					if(actAmountPaid==expAmountPaid) {
@@ -155,7 +155,7 @@ public class Walkin_With_IndDiscount {
 
 						double actBalanceAmt = Double.valueOf(getBalance.trim().split(" ")[0])
 
-						double expBalanceAmt = expTotalPayable-expAmountPaid;
+						double expBalanceAmt = expTotalPayable;
 
 
 						if(actBalanceAmt==expBalanceAmt) {
@@ -164,7 +164,7 @@ public class Walkin_With_IndDiscount {
 
 							double actPartialPaid = Double.valueOf(getpartialPaid);
 
-							double expPartialPaid = expAmountPaid;
+							double expPartialPaid = expTotalPayable;
 
 							if(actPartialPaid==expPartialPaid) {
 								println " Test Case Passed !! As Partial Paid Amount is updated automatically"
@@ -173,6 +173,7 @@ public class Walkin_With_IndDiscount {
 
 								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash'))
 
+								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_On_ADDButtonToAddModesOfPayment'))
 
 								WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin'))
 
@@ -275,16 +276,16 @@ public class Walkin_With_IndDiscount {
 
 				double actAmountPaid = Double.valueOf(getAmountPaid.trim().split(" ")[0]);
 
-				double expAmountPaid = expTotalPayable;
+				double expAmountPaid = 0;
 
-				if(actAmountPaid==expTotalPayable) {
+				if(actAmountPaid==expAmountPaid) {
 					println " Test Case Passed !! As Amount paid without GST is correct"
 
 					String getBalance = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_Balance'))
 
 					double actBalanceAmt = Double.valueOf(getBalance.trim().split(" ")[0])
 
-					double expBalanceAmt = expTotalPayable-expAmountPaid;
+					double expBalanceAmt = expTotalPayable;
 
 					if(actBalanceAmt==expBalanceAmt) {
 						println " Test Case Passed !! As Balance Amount without GST is correct"
@@ -293,7 +294,7 @@ public class Walkin_With_IndDiscount {
 
 						double actPartialPaid = Double.valueOf(getpartialPaid);
 
-						double expPartialPaid = expAmountPaid;
+						double expPartialPaid = expTotalPayable;
 
 						if(actPartialPaid==expPartialPaid) {
 							println " Test Case Passed !! As Partial Paid without GST amount is correct"
@@ -302,12 +303,11 @@ public class Walkin_With_IndDiscount {
 
 							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash'))
 
-
+							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_On_ADDButtonToAddModesOfPayment'))
+							
 							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin'))
 
-
 							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin'))
-
 
 							println " Congratulations !! Test Case Passed with Individual Discount and without GST ";
 						} else {

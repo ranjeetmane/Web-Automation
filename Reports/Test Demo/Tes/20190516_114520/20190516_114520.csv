@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Tes,,,2019-05-16 11:45:30,2019-05-16 11:46:40,1m - 10.289s,FAILED
+,,,,,,
+Test Cases/Operator/OpLogin/OpLogin,,,2019-05-16 11:45:31,2019-05-16 11:46:38,1m - 7.160s,FAILED
+"openBrowser("""")",,,2019-05-16 11:45:32,2019-05-16 11:46:38,1m - 6.388s,FAILED
+,,,,,,
+Test Cases/Operator/Walkin/Without GST/a. Walkin_With_IndDiscount,,,2019-05-16 11:46:38,2019-05-16 11:46:40,1.547s,FAILED
+"in.runo.operator.walkin.service.Walkin_With_IndDiscount.createWalkinWithIndividualDiscountWithoutGST(""9825142260"", ""Ind Disc and Without GST"", ""25"")",,,2019-05-16 11:46:39,2019-05-16 11:46:40,1.241s,FAILED

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tes" time="77" tests="1" failures="1" errors="0">
+   <testsuite name="Tes" tests="1" failures="1" errors="0" time="77" timestamp="2019-05-16 13:23:33" hostname="ranje - DESKTOP-EVQLC2E" id="Test Suites/Test Demo/Tes">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190516_132326"/>
+         <property name="logFiles" value="C:\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190516_132326\\execution0.log"/>
+         <property name="attachments" value="C:\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190516_132326\\1557993288246.png"/>
+         <property name="hostName" value="ranje - DESKTOP-EVQLC2E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="09c169d9-ba0c-4cbf-a833-bcb97ad82d4a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Operator/OpLogin/OpLogin" classname="Test Cases/Operator/OpLogin/OpLogin" status="PASSED">
+         <system-out><![CDATA[2019-05-16 13:23:33 - [TEST_CASE][PASSED] - Test Cases/Operator/OpLogin/OpLogin: Test Cases/Operator/OpLogin/OpLogin
+
+2019-05-16 13:23:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-16 13:23:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-16 13:23:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-16 13:23:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-16 13:23:48 - [TEST_STEP][PASSED] - navigateToUrl("http://13.126.72.115:4200/"): Navigate to 'http://13.126.72.115:4200/' successfully
+
+2019-05-16 13:23:59 - [MESSAGE][PASSED] - Navigate to 'http://13.126.72.115:4200/' successfully
+
+2019-05-16 13:23:59 - [TEST_STEP][PASSED] - maximizeWindow(OPTIONAL): Current window maximized
+
+2019-05-16 13:23:59 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-16 13:23:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/div_Operator")): Object: 'Object Repository/Operator/OpLogin/Page_Runo/div_Operator' is clicked on
+
+2019-05-16 13:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogin/Page_Runo/div_Operator' is clicked on
+
+2019-05-16 13:23:59 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-05-16 13:24:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-16 13:24:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng"), "8830175062"): Text '8830175062' is set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng'
+
+2019-05-16 13:24:04 - [MESSAGE][PASSED] - Text '8830175062' is set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng'
+
+2019-05-16 13:24:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1"), "0VuygnA+GFY="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1'
+
+2019-05-16 13:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_1'
+
+2019-05-16 13:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2"), "4QsYikuMnfc="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2'
+
+2019-05-16 13:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_2'
+
+2019-05-16 13:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3"), "uyqgJ3PclbQ="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3'
+
+2019-05-16 13:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_3'
+
+2019-05-16 13:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4"), "/yoJQMt7SF0="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4'
+
+2019-05-16 13:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_4'
+
+2019-05-16 13:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5"), "2wIR5rizw6I="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5'
+
+2019-05-16 13:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_5'
+
+2019-05-16 13:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6"), "xcsEsceOxMQ="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6'
+
+2019-05-16 13:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_6'
+
+2019-05-16 13:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7"), "0r6XmuTReV8="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7'
+
+2019-05-16 13:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_7'
+
+2019-05-16 13:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8"), "wEDVojD9906R+kXWuM9ihA=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8'
+
+2019-05-16 13:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_8'
+
+2019-05-16 13:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9"), "wEDVojD9906x1g0B3VxO5g=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9'
+
+2019-05-16 13:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_9'
+
+2019-05-16 13:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10"), "wEDVojD9905YSeMDfDCy9A=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10'
+
+2019-05-16 13:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_10'
+
+2019-05-16 13:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11"), "wEDVojD9905YSeMDfDCy9A=="): Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11'
+
+2019-05-16 13:24:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_form-control ng_11'
+
+2019-05-16 13:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt")): Object: 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt' is clicked on
+
+2019-05-16 13:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/OpLogin/Page_Runo/input_Operator_btn gardianButt' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operator/Walkin/Without GST/e. Walkin_With_OverallDiscount and MembershipDiscount" classname="Test Cases/Operator/Walkin/Without GST/e. Walkin_With_OverallDiscount and MembershipDiscount" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Operator/Walkin/Without GST/e. Walkin_With_OverallDiscount and MembershipDiscount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' located by 'By.xpath: //span[@class='summaryBox__mDiscount__value medium']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst(Walkin_With_OverallDiscount_And_MembershipDiscount.groovy:193)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at e. Walkin_With_OverallDiscount and MembershipDiscount.run(e. Walkin_With_OverallDiscount and MembershipDiscount:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557993206801.run(TempTestSuite1557993206801.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-16 13:24:06 - [TEST_CASE][FAILED] - Test Cases/Operator/Walkin/Without GST/e. Walkin_With_OverallDiscount and MembershipDiscount: Test Cases/Operator/Walkin/Without GST/e. Walkin_With_OverallDiscount and MembershipDiscount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' located by 'By.xpath: //span[@class='summaryBox__mDiscount__value medium']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst(Walkin_With_OverallDiscount_And_MembershipDiscount.groovy:193)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at e. Walkin_With_OverallDiscount and MembershipDiscount.run(e. Walkin_With_OverallDiscount and MembershipDiscount:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557993206801.run(TempTestSuite1557993206801.groovy:36)
+
+
+2019-05-16 13:24:06 - [TEST_STEP][FAILED] - in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst("8830175063", "Ranjeet", "30"): in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst("8830175063", "Ranjeet", "30") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' located by 'By.xpath: //span[@class='summaryBox__mDiscount__value medium']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst(Walkin_With_OverallDiscount_And_MembershipDiscount.groovy:193)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at e. Walkin_With_OverallDiscount and MembershipDiscount.run(e. Walkin_With_OverallDiscount and MembershipDiscount:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557993206801.run(TempTestSuite1557993206801.groovy:36)
+
+
+2019-05-16 13:24:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-16 13:24:09 - [MESSAGE][PASSED] - Text '8830175063' is set on object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Input_mobileNumber'
+
+2019-05-16 13:24:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-16 13:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_existingCustomer' is clicked on
+
+2019-05-16 13:24:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-16 13:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Service_DropDown_List' is clicked on
+
+2019-05-16 13:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select_serviceName' is clicked on
+
+2019-05-16 13:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Employee_DropDown_List' is clicked on
+
+2019-05-16 13:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select-EmployeeName' is clicked on
+
+2019-05-16 13:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_AddSummary' is clicked on
+
+2019-05-16 13:24:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-16 13:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/Click_Overall_DiscountButton' is clicked on
+
+2019-05-16 13:24:16 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/Input_OverallDiscount_In_Percentage'
+
+2019-05-16 13:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/Click_ApplyOverall_Discount' is clicked on
+
+2019-05-16 13:24:17 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/getText_ProvidedOverall_Discount_In_Percentage' is: '30'
+
+2019-05-16 13:24:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_ServicePrice1' is: ' 1500  INR'
+
+2019-05-16 13:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_UnCheck_GST' is clicked on
+
+2019-05-16 13:24:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@class='summaryBox__mDiscount__value medium']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-16 13:24:48 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' located by 'By.xpath: //span[@class='summaryBox__mDiscount__value medium']' not found)
+[[ATTACHMENT|C:\\RunoWeb-Automation\\Reports\\Test Demo\\Tes\\20190516_132326\\1557993288246.png]]
+
+2019-05-16 13:24:48 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' located by 'By.xpath: //span[@class='summaryBox__mDiscount__value medium']' not found)
+
+2019-05-16 13:24:48 - [MESSAGE][FAILED] - in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst("8830175063", "Ranjeet", "30") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' located by 'By.xpath: //span[@class='summaryBox__mDiscount__value medium']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst(Walkin_With_OverallDiscount_And_MembershipDiscount.groovy:193)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at e. Walkin_With_OverallDiscount and MembershipDiscount.run(e. Walkin_With_OverallDiscount and MembershipDiscount:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557993206801.run(TempTestSuite1557993206801.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-16 13:24:06 - [TEST_CASE][FAILED] - Test Cases/Operator/Walkin/Without GST/e. Walkin_With_OverallDiscount and MembershipDiscount: Test Cases/Operator/Walkin/Without GST/e. Walkin_With_OverallDiscount and MembershipDiscount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' located by 'By.xpath: //span[@class='summaryBox__mDiscount__value medium']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst(Walkin_With_OverallDiscount_And_MembershipDiscount.groovy:193)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at e. Walkin_With_OverallDiscount and MembershipDiscount.run(e. Walkin_With_OverallDiscount and MembershipDiscount:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557993206801.run(TempTestSuite1557993206801.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-16 13:23:33 - [TEST_SUITE][FAILED] - Tes: Test Cases/Operator/Walkin/Without GST/e. Walkin_With_OverallDiscount and MembershipDiscount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' located by 'By.xpath: //span[@class='summaryBox__mDiscount__value medium']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst(Walkin_With_OverallDiscount_And_MembershipDiscount.groovy:193)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at e. Walkin_With_OverallDiscount and MembershipDiscount.run(e. Walkin_With_OverallDiscount and MembershipDiscount:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557993206801.run(TempTestSuite1557993206801.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-05-16 13:23:33 - [TEST_SUITE][FAILED] - Tes: Test Cases/Operator/Walkin/Without GST/e. Walkin_With_OverallDiscount and MembershipDiscount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Operator/Walkin/c. Membership/Avail membership benefits/getText_AppliedMembership_Discount' located by 'By.xpath: //span[@class='summaryBox__mDiscount__value medium']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at in.runo.operator.walkin.membership.Walkin_With_OverallDiscount_And_MembershipDiscount.walkinWithOverallAndMembershipDiscount_WithoutGst(Walkin_With_OverallDiscount_And_MembershipDiscount.groovy:193)
+	at in.runo.operator.walkin.service.Walkin_With_IndDiscount.invokeMethod(Walkin_With_IndDiscount.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at e. Walkin_With_OverallDiscount and MembershipDiscount.run(e. Walkin_With_OverallDiscount and MembershipDiscount:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557993206801.run(TempTestSuite1557993206801.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

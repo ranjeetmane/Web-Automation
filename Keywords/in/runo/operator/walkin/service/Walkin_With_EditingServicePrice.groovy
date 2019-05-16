@@ -53,7 +53,7 @@ public class Walkin_With_EditingServicePrice extends Walkin_With_IndDiscount{
 
 		actGSTAmt = Double.valueOf(getActGSTAmt.trim().split(" ")[0]);
 
-		double expGstAmt = 0;
+		double expGstAmt = priceOfSelectedService1*0.18;
 
 		if(actGSTAmt==expGstAmt) {
 			println " Test Case Passed !! As Gst amount is correct "
@@ -71,7 +71,7 @@ public class Walkin_With_EditingServicePrice extends Walkin_With_IndDiscount{
 
 				double actAmountPaid = Double.valueOf(getAmountPaid.trim().split(" ")[0]);
 
-				double expAmountPaid = expTotalPayable;
+				double expAmountPaid = 0;
 
 				if(actAmountPaid==expAmountPaid) {
 					println " Test Case Passed !! As Amount Paid is correct"
@@ -79,7 +79,7 @@ public class Walkin_With_EditingServicePrice extends Walkin_With_IndDiscount{
 
 					double actBalanceAmt = Double.valueOf(getBalance.trim().split(" ")[0])
 
-					double expBalanceAmt = expTotalPayable-expAmountPaid;
+					double expBalanceAmt = expTotalPayable;
 
 					if(actBalanceAmt==expBalanceAmt) {
 						println " Test Case Passed !! As Balance Amount is correct"
@@ -88,7 +88,7 @@ public class Walkin_With_EditingServicePrice extends Walkin_With_IndDiscount{
 
 						double actPartialPaid = Double.valueOf(getpartialPaid);
 
-						double expPartialPaid = expAmountPaid;
+						double expPartialPaid = expTotalPayable;
 
 						if(actPartialPaid==expPartialPaid) {
 							println " Test Case Passed !! As Partial Paid amount is updated successfully"
@@ -97,9 +97,9 @@ public class Walkin_With_EditingServicePrice extends Walkin_With_IndDiscount{
 
 							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash'))
 
+							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_On_ADDButtonToAddModesOfPayment'))
 
 							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin'))
-
 
 							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin'))
 
@@ -174,7 +174,7 @@ public class Walkin_With_EditingServicePrice extends Walkin_With_IndDiscount{
 
 				double actAmountPaid = Double.valueOf(getAmountPaid.trim().split(" ")[0]);
 
-				double expAmountPaid = expTotalPayable;
+				double expAmountPaid = 0;
 
 				if(actAmountPaid==expAmountPaid) {
 					println " Test Case Passed !! As Amount Paid is correct"
@@ -182,7 +182,7 @@ public class Walkin_With_EditingServicePrice extends Walkin_With_IndDiscount{
 
 					double actBalanceAmt = Double.valueOf(getBalance.trim().split(" ")[0])
 
-					double expBalanceAmt = expTotalPayable-expAmountPaid;
+					double expBalanceAmt = expTotalPayable;
 
 					if(actBalanceAmt==expBalanceAmt) {
 						println " Test Case Passed !! As Balance Amount is correct"
@@ -191,7 +191,7 @@ public class Walkin_With_EditingServicePrice extends Walkin_With_IndDiscount{
 
 						double actPartialPaid = Double.valueOf(getpartialPaid);
 
-						double expPartialPaid = expAmountPaid;
+						double expPartialPaid = expTotalPayable;
 
 						if(actPartialPaid==expPartialPaid) {
 							println " Test Case Passed !! As Partial Paid amount is updated successfully"
@@ -200,14 +200,14 @@ public class Walkin_With_EditingServicePrice extends Walkin_With_IndDiscount{
 
 							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash'))
 
-
+							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_On_ADDButtonToAddModesOfPayment'))
+							
 							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin'))
-
 
 							WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin'))
 
 
-							println " Congratulations !! Test Case Passed with Edited Service Price";
+							println " Congratulations !! Test Case Passed with Edited Service Price without GST ";
 						} else{
 							println " Test Case Failed !! As Partial Paid amount is not updated  successfully"
 						}

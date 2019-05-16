@@ -42,6 +42,11 @@ public class Walkin_With_CreditAmount extends Walkin_With_IndDiscount{
 
 			int  creditAmount= Integer.parseInt(CreditAmt);
 
+			WebUI.click(findTestObject('Object Repository/Operator/Walkin/f. Credits/Click_On DropDownOfPaymentMode'))
+
+			WebUI.click(findTestObject('Object Repository/Operator/Walkin/f. Credits/Click_Google Pay Mode'))
+
+			WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_On_ADDButtonToAddModesOfPayment'))
 
 			String amtPaid = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/f. Credits/getText_getAmountPaid'))
 
@@ -52,10 +57,6 @@ public class Walkin_With_CreditAmount extends Walkin_With_IndDiscount{
 			if(creditAmount==amountPaid){
 
 				println " Test Case Passed !! Credit Amount and Amount Paid is equals"
-
-				WebUI.click(findTestObject('Object Repository/Operator/Walkin/f. Credits/Click_On DropDownOfPaymentMode'))
-
-				WebUI.click(findTestObject('Object Repository/Operator/Walkin/f. Credits/Click_Google Pay Mode'))
 
 				WebUI.click(findTestObject('Object Repository/Operator/Walkin/f. Credits/Click_Submit'))
 
@@ -150,87 +151,86 @@ public class Walkin_With_CreditAmount extends Walkin_With_IndDiscount{
 			println "Test Case Failed !! As Available credit is insufficent for billing. required credit amount is :"+totalPayable;
 		}
 	}
-	
+
 	@Keyword
-	
-		public static void usingCreditsValueForBilling_Without_GST(String customerNumber, String customerName){
-	
-			Walkin_With_CreditAmount.addCreditsAmount(customerNumber, customerName, '3540')
-	
-			customerPersonalDetails(customerNumber, customerName)
-	
+
+	public static void usingCreditsValueForBilling_Without_GST(String customerNumber, String customerName){
+
+		Walkin_With_CreditAmount.addCreditsAmount(customerNumber, customerName, '3540')
+
+		customerPersonalDetails(customerNumber, customerName)
+
+		WebUI.delay(1)
+
+		WebUI.click(findTestObject('Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Service_DropDown_List'))
+
+		WebUI.click(findTestObject('Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select_serviceName'))
+
+		WebUI.click(findTestObject('Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Employee_DropDown_List'))
+
+		WebUI.click(findTestObject('Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select-EmployeeName'))
+
+		WebUI.click(findTestObject('Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_AddSummary'))
+
+		WebUI.delay(1)
+
+		String getCreditValue = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/f. Credits/getText_CreditValue'))
+
+		println " Actual Credit Amount is :"+getCreditValue;
+
+		double availableCreditValue = Double.valueOf(getCreditValue);
+
+		String getTotalPayable = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getTotalPayable'))
+
+		String totalPayableAmt = getTotalPayable.trim().split(" ")[0];
+		double totalPayable = Double.valueOf(getTotalPayable.trim().split(" ")[0]);
+
+		if(availableCreditValue>=totalPayable) {
+			println " Test Case Passed !! As Available Credit Amount is sufficient for billing";
+
+			WebUI.waitForElementPresent(findTestObject('Object Repository/Operator/Walkin/f. Credits/Input_Avail_Credit_Amount'), 3)
+			WebUI.click(findTestObject('Object Repository/Operator/Walkin/f. Credits/Input_Avail_Credit_Amount'))
+
+			WebUI.setText(findTestObject('Object Repository/Operator/Walkin/f. Credits/Input_Avail_Credit_Amount'), totalPayableAmt)
+
+			WebUI.click(findTestObject('Object Repository/Operator/Walkin/f. Credits/Click_RedeemCredit_Value'))
+
 			WebUI.delay(1)
-	
-			WebUI.click(findTestObject('Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Service_DropDown_List'))
-	
-			WebUI.click(findTestObject('Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select_serviceName'))
-	
-			WebUI.click(findTestObject('Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Employee_DropDown_List'))
-	
-			WebUI.click(findTestObject('Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Select-EmployeeName'))
-	
-			WebUI.click(findTestObject('Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_AddSummary'))
-	
-			WebUI.delay(1)
-	
-			String getCreditValue = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/f. Credits/getText_CreditValue'))
-	
-			println " Actual Credit Amount is :"+getCreditValue;
-	
-			double availableCreditValue = Double.valueOf(getCreditValue);
-	
-			String getTotalPayable = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_getTotalPayable'))
-	
-			String totalPayableAmt = getTotalPayable.trim().split(" ")[0];
-			double totalPayable = Double.valueOf(getTotalPayable.trim().split(" ")[0]);
-	
-			if(availableCreditValue>=totalPayable) {
-				println " Test Case Passed !! As Available Credit Amount is sufficient for billing";
-	
-				WebUI.waitForElementPresent(findTestObject('Object Repository/Operator/Walkin/f. Credits/Input_Avail_Credit_Amount'), 3)
-				WebUI.click(findTestObject('Object Repository/Operator/Walkin/f. Credits/Input_Avail_Credit_Amount'))
-	
-				WebUI.setText(findTestObject('Object Repository/Operator/Walkin/f. Credits/Input_Avail_Credit_Amount'), totalPayableAmt)
-	
-				WebUI.click(findTestObject('Object Repository/Operator/Walkin/f. Credits/Click_RedeemCredit_Value'))
-	
-				WebUI.delay(1)
-	
-				String getRedeemedCreditValue = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/f. Credits/getText_Get_Redeemed_Amount_From-SummaryPage'))
-				println " Redeemed Credit Value :"+getRedeemedCreditValue;
-	
-				double reedmedCreditvalue = Double.valueOf(getRedeemedCreditValue.trim().split(" ")[1]);
-	
-				println " credit value : "+reedmedCreditvalue;
-	
-				String getActualAmountPaid = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_AmountPaid'))
-	
-				println " amount paid :"+getActualAmountPaid
-	
-				double actAmountPaid = Double.valueOf(getActualAmountPaid.trim().split(" ")[0])
-				double expAmountPaid = totalPayable-reedmedCreditvalue;
-	
-				if(actAmountPaid==expAmountPaid) {
-					println " Test Case Passed !! As Amount Paid is correct"
-	
-					String getActBalanceAmt = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_Balance'))
-					double actBalanceAmt = Double.valueOf(getActBalanceAmt.trim().split(" ")[0])
-					double expBalanceAmt = totalPayable-reedmedCreditvalue;
-					if(actBalanceAmt==expBalanceAmt) {
-						println " Test Case Passed !! As Balance Amount is correct "
-						WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin'))
-						WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin'))
-						println " Congratulations !! Credit Amount is successfully used for avail services  ";
-					} else{
-						println " Test Case Failed !! As Balance Amount is correct"
-					}
+
+			String getRedeemedCreditValue = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/f. Credits/getText_Get_Redeemed_Amount_From-SummaryPage'))
+			println " Redeemed Credit Value :"+getRedeemedCreditValue;
+
+			double reedmedCreditvalue = Double.valueOf(getRedeemedCreditValue.trim().split(" ")[1]);
+
+			println " credit value : "+reedmedCreditvalue;
+
+			String getActualAmountPaid = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_AmountPaid'))
+
+			println " amount paid :"+getActualAmountPaid
+
+			double actAmountPaid = Double.valueOf(getActualAmountPaid.trim().split(" ")[0])
+			double expAmountPaid = totalPayable-reedmedCreditvalue;
+
+			if(actAmountPaid==expAmountPaid) {
+				println " Test Case Passed !! As Amount Paid is correct"
+
+				String getActBalanceAmt = WebUI.getText(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/getText_Balance'))
+				double actBalanceAmt = Double.valueOf(getActBalanceAmt.trim().split(" ")[0])
+				double expBalanceAmt = totalPayable-reedmedCreditvalue;
+				if(actBalanceAmt==expBalanceAmt) {
+					println " Test Case Passed !! As Balance Amount is correct "
+					WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin'))
+					WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin'))
+					println " Congratulations !! Credit Amount is successfully used for avail services  ";
 				} else{
-					println " Test Case Failed !! As Amount Paid is not correct"
+					println " Test Case Failed !! As Balance Amount is correct"
 				}
 			} else{
-				println "Test Case Failed !! As Available credit is insufficent for billing. required credit amount is :"+totalPayable;
+				println " Test Case Failed !! As Amount Paid is not correct"
 			}
+		} else{
+			println "Test Case Failed !! As Available credit is insufficent for billing. required credit amount is :"+totalPayable;
 		}
-	
+	}
 }
 

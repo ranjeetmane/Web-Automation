@@ -95,7 +95,7 @@ public class Walkin_With_OverallDiscount_And_MembershipDiscount extends Walkin_W
 
 			double actAmountPaid = Double.valueOf(getAmountPaid.trim().split(" ")[0]);
 
-			double expAmountPaid = expTotalPayable;
+			double expAmountPaid = 0;
 
 			if(actAmountPaid==expAmountPaid) {
 				println " Test Case Passed !! As amount paid is correct"
@@ -104,7 +104,7 @@ public class Walkin_With_OverallDiscount_And_MembershipDiscount extends Walkin_W
 
 				double actBalanceAmt = Double.valueOf(getBalance.trim().split(" ")[0])
 
-				double expBalanceAmt = expTotalPayable-expAmountPaid;
+				double expBalanceAmt = expTotalPayable;
 
 				if(actBalanceAmt==expBalanceAmt) {
 					println " Test Case Passed !! As Balance Amount is correct"
@@ -113,7 +113,7 @@ public class Walkin_With_OverallDiscount_And_MembershipDiscount extends Walkin_W
 
 					double actPartialPaid = Double.valueOf(getpartialPaid);
 
-					double expPartialPaid = expAmountPaid;
+					double expPartialPaid = expTotalPayable;
 
 					if(actPartialPaid==expPartialPaid) {
 						println " Test Case Passed !! As Partial Paid Amount is not correct "
@@ -122,9 +122,9 @@ public class Walkin_With_OverallDiscount_And_MembershipDiscount extends Walkin_W
 
 						WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash'))
 
+						WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_On_ADDButtonToAddModesOfPayment'))
 
 						WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin'))
-
 
 						WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin'))
 
@@ -172,9 +172,9 @@ public class Walkin_With_OverallDiscount_And_MembershipDiscount extends Walkin_W
 		WebUI.setText(findTestObject('Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/Input_OverallDiscount_In_Percentage'), overallDiscount)
 
 
-		
-		
-		
+
+
+
 		WebUI.click(findTestObject('Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/Click_ApplyOverall_Discount'))
 
 		String getProvidedOverallDisc = WebUI.getAttribute(findTestObject('Object Repository/Operator/Walkin/b. Walkin_With_Overall_Discount/getText_ProvidedOverall_Discount_In_Percentage'), 'value')
@@ -227,7 +227,7 @@ public class Walkin_With_OverallDiscount_And_MembershipDiscount extends Walkin_W
 
 			double actAmountPaid = Double.valueOf(getAmountPaid.trim().split(" ")[0]);
 
-			double expAmountPaid = expTotalPayable;
+			double expAmountPaid = 0;
 
 			if(actAmountPaid==expAmountPaid) {
 				println " Test Case Passed !! As amount paid is correct"
@@ -236,7 +236,7 @@ public class Walkin_With_OverallDiscount_And_MembershipDiscount extends Walkin_W
 
 				double actBalanceAmt = Double.valueOf(getBalance.trim().split(" ")[0])
 
-				double expBalanceAmt = expTotalPayable-expAmountPaid;
+				double expBalanceAmt = expTotalPayable;
 
 				if(actBalanceAmt==expBalanceAmt) {
 					println " Test Case Passed !! As Balance Amount is correct"
@@ -245,7 +245,7 @@ public class Walkin_With_OverallDiscount_And_MembershipDiscount extends Walkin_W
 
 					double actPartialPaid = Double.valueOf(getpartialPaid);
 
-					double expPartialPaid = expAmountPaid;
+					double expPartialPaid = expTotalPayable;
 
 					if(actPartialPaid==expPartialPaid) {
 						println " Test Case Passed !! As Partial Paid Amount is not correct "
@@ -254,14 +254,13 @@ public class Walkin_With_OverallDiscount_And_MembershipDiscount extends Walkin_W
 
 						WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_selectMode_Cash'))
 
-
+						WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_On_ADDButtonToAddModesOfPayment'))
+						
 						WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/SummaryValidation Object/Click_Submit_Walkin'))
-
 
 						WebUI.click(findTestObject('Object Repository/Operator/Walkin/a. Walkin_With_IndDiscount/Click_Create_New_Walkin'))
 
-
-						println " Congratulation !! Test Case Passed with Membership Discount and Overall Discount "
+						println " Congratulation !! Test Case Passed with Membership Discount and Overall Discount without GST"
 					} else{
 						println " Test Case Failed !! As Partial Paid amount is not correct"
 					}
